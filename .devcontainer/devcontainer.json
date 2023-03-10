@@ -3,7 +3,7 @@
   "dockerComposeFile": "./compose.yml",
   "service": "cloudflare_hono",
   // workspaceを明示的に指定
-  "workspaceFolder": "/home/vscode/cloudflare-hono",
+  "workspaceFolder": "/home/vscode/cloudflare-hono-app",
   // remotecontainer内でのextension
   "extensions": [
     "vscodevim.vim", // Vim
