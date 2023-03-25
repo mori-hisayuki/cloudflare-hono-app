@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "run-p dev:*",
+    "dev:wrangler": "wrangler pages dev dist --live-reload",
     "dev:esbuild": "esbuild --bundle src/server.ts --format=esm --watch --outfile=dist/_worker.js"
   },
   "dependencies": {
