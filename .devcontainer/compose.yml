@@ -24,5 +24,6 @@ services:
     volumes:
       # ソースコードとdevcontainerを一緒に管理する場合は明示的にマウント先を指定
       - ..:$HOME_DIR/$WORK_DIR:cached
+      - ~/.ssh:$HOME_DIR/.ssh
       - .extensions:$HOME_DIR/.vscode-server/extensions
     command: sleep infinity
