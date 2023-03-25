@@ -1,13 +1,11 @@
 {
   "name": "cloudflare-hono-app",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:mori-hisayuki/cloudflare-hono-app.git",
   "license": "MIT",
   "dependencies": {
-    "hono": "^3.0.5"
+    "hono": "^3.1.2"
   },
   "devDependencies": {
-    "typescript": "^4.9.5"
-  },
+    "typescript": "^5.0.2"
+  }
 }
